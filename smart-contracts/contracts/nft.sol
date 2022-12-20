@@ -43,19 +43,18 @@ contract MyNFT is ERC721, IERC2981, Ownable, ReentrancyGuard {
     address public royaltyReceiverAddress;
 
     // ============ CUSTOMIZE VALUES BELOW ============
-    uint256 public constant MAX_TOTAL_SUPPLY = 8000;
+    uint256 public constant MAX_TOTAL_SUPPLY = 8000; // Size of NFT Collection
 
-    uint256 public constant MAX_PRE_SALE_MINTS = 3;
+    uint256 public constant MAX_PRE_SALE_MINTS = 3; // Tokens a single wallet can mint on pre-sale
+    uint256 public constant PRE_SALE_PRICE = 0.01 ether; // Price of token during pre-sale and public sale
 
-    uint256 public constant PRE_SALE_PRICE = 0.01 ether;
-
-    uint256 public constant MAX_PUBLIC_SALE_MINTS = 5;
-
+    uint256 public constant MAX_PUBLIC_SALE_MINTS = 5; // 
     uint256 public constant PUBLIC_SALE_PRICE = 0.02 ether;
 
-    uint256 public constant MAX_RESERVE_TOKENS = 200;
+    uint256 public constant MAX_RESERVE_TOKENS = 200; // # of tokens team is allowed to reserve
+    uint256 public constant MAX_TOKENS_PER_WALLET = 5; // # of tokens a single wallet can have throughout mint
 
-    uint256 public constant ROYALTY_PERCENTAGE = 5;
+    uint256 public constant ROYALTY_PERCENTAGE = 5; // % of royalties to take on every secondary sale of collection in perpituity
 
     // ==================== EVENTS ====================
     event MintPublicSale(address indexed minter, uint256 indexed tokens);

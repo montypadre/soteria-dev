@@ -7,9 +7,12 @@ const layerConfig = [
     totalTokens: 100,
     layersOrder: [
       { name: "Background", options: { bypassDNA: true } },
-      { name: "Body" },
-      { name: "Head" },
-      { name: "Face" },
+      { name: "Skin" },
+      { name: "Eyes" },
+      { name: "Mouths" },
+      { name: "Clothing" },
+      { name: "Hair-Headgear" },
+      { name: "Accessories" }
     ],
   },
 ];
@@ -19,8 +22,8 @@ const shuffleLayerConfigurations = false;
 const debugLogs = false;
 
 const format = {
-  width: 512,
-  height: 512,
+  width: 2400,
+  height: 2600,
   smoothing: false,
 };
 

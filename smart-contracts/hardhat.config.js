@@ -43,7 +43,7 @@ task("etherscan-verify", "Verifies on etherscan", async (taskArgs, hre) => {
  */
 module.exports = {
   solidity: "0.8.4",
-  defaultNetwork: "goerli",
+  defaultNetwork: "polygon",
   settings: {
     optimizer: {
       enabled: true,
@@ -76,7 +76,7 @@ module.exports = {
     apiKey: {
       goerli: ETHERSCAN_API_KEY,
       mainnet: ETHERSCAN_API_KEY,
-      polygon: POLYGONSCAN_API_KEY,
+      polygonMumbai: POLYGONSCAN_API_KEY,
     },
   },
 };

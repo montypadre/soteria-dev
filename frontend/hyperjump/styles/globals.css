@@ -1,0 +1,113 @@
+:root {
+  --chakra-ring-inset: var(--chakra-empty, );
+  --chakra-ring-offset-width: 0px;
+  --chakra-ring-offset-color: #fff;
+  --chakra-ring-color: rgba(66, 153, 225, 0.6);
+  --chakra-ring-offset-shadow: 0 0 #0000;
+  --chakra-ring-shadow: 0 0 #0000;
+  --chakra-space-x-reverse: 0;
+  --chakra-space-y-reverse: 0;
+  --chakra-colors-transparent: transparent;
+  --chakra-colors-current: currentColor;
+  --chakra-colors-black: #000000;
+  --chakra-colors-white: #FFFFFF;
+  --chakra-colors-whiteAlpha-50: rgba(255, 255, 255, 0.04);
+  --chakra-colors-whiteAlpha-100: rgba(255, 255, 255, 0.06);
+  --chakra-colors-whiteAlpha-200: rgba(255, 255, 255, 0.08);
+  --chakra-colors-whiteAlpha-300: rgba(255, 255, 255, 0.16);
+  --chakra-colors-whiteAlpha-400: rgba(255, 255, 255, 0.24);
+  --chakra-colors-whiteAlpha-500: rgba(255, 255, 255, 0.36);
+  --chakra-colors-whiteAlpha-600: rgba(255, 255, 255, 0.48);
+  --chakra-colors-whiteAlpha-700: rgba(255, 255, 255, 0.64);
+  --chakra-colors-whiteAlpha-800: rgba(255, 255, 255, 0.8);
+  --chakra-colors-whiteAlpha-900: rgba(255, 255, 255, 0.92);
+  --chakra-colors-blackAlpha-50: rgba(0, 0, 0, 0.04);
+  --chakra-colors-blackAlpha-100: rgba(0, 0, 0, 0.06);
+  --chakra-colors-blackAlpha-200: rgba(0, 0, 0, 0.08);
+  --chakra-colors-blackAlpha-300: rgba(0, 0, 0, 0.16);
+  --chakra-colors-blackAlpha-400: rgba(0, 0, 0, 0.24);
+  --chakra-colors-blackAlpha-500: rgba(0, 0, 0, 0.36);
+  --chakra-colors-blackAlpha-600: rgba(0, 0, 0, 0.48);
+  --chakra-colors-blackAlpha-700: rgba(0, 0, 0, 0.64);
+  --chakra-colors-blackAlpha-800: rgba(0, 0, 0, 0.8);
+  --chakra-colors-blackAlpha-900: rgba(0, 0, 0, 0.92);
+  --chakra-colors-gray-50: #F7FAFC;
+  --chakra-colors-gray-100: #EDF2F7;
+  --chakra-colors-gray-200: #E2E8F0;
+  --chakra-colors-gray-300: #CBD5E0;
+  --chakra-colors-gray-400: #A0AEC0;
+  --chakra-colors-gray-500: #718096;
+  --chakra-colors-gray-600: #4A5568;
+  --chakra-colors-gray-700: #2D3748;
+  --chakra-colors-gray-800: #1A202C;
+  --chakra-colors-gray-900: #171923;
+  --chakra-colors-red-50: #FFF5F5;
+  --chakra-colors-red-100: #FED7D7;
+  --chakra-colors-red-200: #FEB2B2;
+  --chakra-colors-red-300: #FC8181;
+  --chakra-colors-red-400: #F56565;
+  --chakra-colors-red-500: #E53E3E;
+  --chakra-colors-red-600: #C53030;
+  --chakra-colors-red-700: #9B2C2C;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+
+    --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
+    --secondary-glow: linear-gradient(to bottom right,
+        rgba(1, 65, 255, 0),
+        rgba(1, 65, 255, 0),
+        rgba(1, 65, 255, 0.3));
+
+    --tile-start-rgb: 2, 13, 46;
+    --tile-end-rgb: 2, 5, 19;
+    --tile-border: conic-gradient(#ffffff80,
+        #ffffff40,
+        #ffffff30,
+        #ffffff20,
+        #ffffff10,
+        #ffffff10,
+        #ffffff80);
+
+    --callout-rgb: 20, 20, 20;
+    --callout-border-rgb: 108, 108, 108;
+    --card-rgb: 100, 100, 100;
+    --card-border-rgb: 200, 200, 200;
+  }
+} */
+
+*, ::before, ::after {
+  border-width: 0px;
+  border-style: solid;
+  box-sizing: border-box;
+}
+
+*, ::before, ::after {
+  border-color: var(--chakra-colors-gray-200);
+  overflow-wrap: break-word;
+}
+
+*, ::before, ::after {
+  border-width: 0px;
+  border-style: solid;
+  box-sizing: border-box;
+}
+
+*, ::before, ::after {
+  border-color: var(--chakra-colors-gray-200);
+  overflow-wrap: break-word;
+}
+
+html {
+  line-height: 1.5;
+  text-size-adjust: 100%;
+  font-family: system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  touch-action: manipulation;
+}
+
